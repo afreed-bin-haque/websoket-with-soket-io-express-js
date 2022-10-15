@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Real time messaging app with websocket and express js</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Real time messaging app with websocket and express js
+      </h1>
+      <pre id="messages" style="height: 400px; overflow: scroll"></pre>
+      <div class="mt-2">
+        <input class="input  is-primary" id="messageBox" placeholder="Type your message"></input>
+      </div>
+      <div class="mt-2">
+        <button class="button is-primary" id="sendText">Send</button>
+      </div>
+    </div>
+  </section>
+  <script src="operation.js"></script>
+</body>
+
+</html>

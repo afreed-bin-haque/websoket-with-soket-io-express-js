@@ -1,0 +1,26 @@
+{
+  "name": "websoket-with-soket-io-express",
+  "version": "1.0.0",
+  "description": "Node js app with socket io for demonstrating how websoket works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afreed-bin-haque/websoket-with-soket-io-express-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afreed-bin-haque/websoket-with-soket-io-express-js/issues"
+  },
+  "homepage": "https://github.com/afreed-bin-haque/websoket-with-soket-io-express-js#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "ws": "^8.9.0"
+  }
+}
